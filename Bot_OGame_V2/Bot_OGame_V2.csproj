@@ -71,6 +71,7 @@
     <Compile Include="ClassDAO\Ressources.cs" />
     <Compile Include="ClassDAO\ClassConstructions\Technologie.cs" />
     <Compile Include="ClassDAO\User.cs" />
+    <Compile Include="Controller\RecuperationPageInternet.cs" />
     <Compile Include="FenetrePrincipale.cs">
       <SubType>Form</SubType>
     </Compile>

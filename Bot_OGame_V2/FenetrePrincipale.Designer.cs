@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauCompteMenu = new System.Windows.Forms.ToolStripMenuItem();
@@ -67,14 +66,14 @@
             this.nouveauCompteMenu.Name = "nouveauCompteMenu";
             this.nouveauCompteMenu.Size = new System.Drawing.Size(175, 22);
             this.nouveauCompteMenu.Text = "Nouveau Compte";
-            this.nouveauCompteMenu.Click += new System.EventHandler(this.nouveauCompteMenu_Click);
+            this.nouveauCompteMenu.Click += new System.EventHandler(this.NouveauCompteMenu_Click);
             // 
             // modifierCompteMenu
             // 
             this.modifierCompteMenu.Name = "modifierCompteMenu";
             this.modifierCompteMenu.Size = new System.Drawing.Size(175, 22);
             this.modifierCompteMenu.Text = "Modifier Compte";
-            this.modifierCompteMenu.Click += new System.EventHandler(this.modifierCompteMenu_Click);
+            this.modifierCompteMenu.Click += new System.EventHandler(this.ModifierCompteMenu_Click);
             // 
             // supprimerCompteMenu
             // 
@@ -105,7 +104,7 @@
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // userControl11
+            // userControlTab
             // 
             this.userControlTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
@@ -113,9 +112,10 @@
             this.userControlTab.AutoScroll = true;
             this.userControlTab.Location = new System.Drawing.Point(0, 0);
             this.userControlTab.MinimumSize = new System.Drawing.Size(700, 400);
-            this.userControlTab.Name = "userControl11";
+            this.userControlTab.Name = "userControlTab";
             this.userControlTab.Size = new System.Drawing.Size(776, 504);
             this.userControlTab.TabIndex = 0;
+            this.userControlTab.Load += new System.EventHandler(this.UserControlTab_Load);
             // 
             // FenetrePrincipale
             // 
@@ -134,7 +134,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();                        
+            this.PerformLayout();
 
         }
         #endregion

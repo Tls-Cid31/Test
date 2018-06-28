@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bot_OGame_V2.Class
+namespace Bot_OGame_V2.ClassDAO.ClassConstructions
 {
     class BatimentRessources : Construction
     {

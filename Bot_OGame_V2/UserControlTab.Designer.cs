@@ -45,6 +45,7 @@ namespace Bot_OGame_V2
             this.richTextBoxResumeCompte = new System.Windows.Forms.RichTextBox();
             this.richTextBoxFlotte = new System.Windows.Forms.RichTextBox();
             this.tabPageConstruction = new System.Windows.Forms.TabPage();
+            this.fileTechnologies = new System.Windows.Forms.ListBox();
             this.fileConstructions = new System.Windows.Forms.ListBox();
             this.viderListeRecherche = new System.Windows.Forms.Button();
             this.retirerListeRecherche = new System.Windows.Forms.Button();
@@ -73,7 +74,6 @@ namespace Bot_OGame_V2
             this.tabPageMessages = new System.Windows.Forms.TabPage();
             this.tabPageNavigateur = new System.Windows.Forms.TabPage();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.fileTechnologies = new System.Windows.Forms.ListBox();
             this.panel1.SuspendLayout();
             this.tabControlPillage.SuspendLayout();
             this.tabPageVueGenerale.SuspendLayout();
@@ -127,7 +127,7 @@ namespace Bot_OGame_V2
             this.buttonConnexion.TabIndex = 14;
             this.buttonConnexion.Text = "Connexion";
             this.buttonConnexion.UseVisualStyleBackColor = true;
-            this.buttonConnexion.Click += new System.EventHandler(this.buttonConnexion_Click);
+            this.buttonConnexion.Click += new System.EventHandler(this.ButtonConnexion_Click);
             // 
             // label1
             // 
@@ -267,11 +267,19 @@ namespace Bot_OGame_V2
             this.tabPageConstruction.TabIndex = 1;
             this.tabPageConstruction.Text = "Construction";
             // 
-            // fileConstrucions
+            // fileTechnologies
+            // 
+            this.fileTechnologies.FormattingEnabled = true;
+            this.fileTechnologies.Location = new System.Drawing.Point(687, 105);
+            this.fileTechnologies.Name = "fileTechnologies";
+            this.fileTechnologies.Size = new System.Drawing.Size(193, 212);
+            this.fileTechnologies.TabIndex = 25;
+            // 
+            // fileConstructions
             // 
             this.fileConstructions.FormattingEnabled = true;
             this.fileConstructions.Location = new System.Drawing.Point(163, 105);
-            this.fileConstructions.Name = "fileConstrucions";
+            this.fileConstructions.Name = "fileConstructions";
             this.fileConstructions.Size = new System.Drawing.Size(193, 212);
             this.fileConstructions.TabIndex = 24;
             // 
@@ -525,14 +533,6 @@ namespace Bot_OGame_V2
             this.webBrowser1.Size = new System.Drawing.Size(783, 566);
             this.webBrowser1.TabIndex = 0;
             this.webBrowser1.Url = new System.Uri("http://www.ogame.fr", System.UriKind.Absolute);
-            // 
-            // listBox1
-            // 
-            this.fileTechnologies.FormattingEnabled = true;
-            this.fileTechnologies.Location = new System.Drawing.Point(687, 105);
-            this.fileTechnologies.Name = "listBox1";
-            this.fileTechnologies.Size = new System.Drawing.Size(193, 212);
-            this.fileTechnologies.TabIndex = 25;
             // 
             // UserControlTab
             // 

@@ -17,17 +17,17 @@ namespace Bot_OGame_V2
             InitializeComponent();
         }
 
-        private void buttonAnnuler_Click(object sender, EventArgs e)
+        private void ButtonAnnuler_Click(object sender, EventArgs e)
         {
             this.Dispose();
         }
 
-        private void buttonValider_Click(object sender, EventArgs e)
+        private void ButtonValider_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void buttonValiderModif_Click(object sender, EventArgs e)
+        private void ButtonValiderModif_Click(object sender, EventArgs e)
         {
 
         }

@@ -17,19 +17,24 @@ namespace Bot_OGame_V2
             InitializeComponent();
         }
 
-        private void nouveauCompteMenu_Click(object sender, EventArgs e)
+        private void NouveauCompteMenu_Click(object sender, EventArgs e)
         {
             FormulaireCompte formulaire = new FormulaireCompte();
             formulaire.Show();
 
         }
 
-        private void modifierCompteMenu_Click(object sender, EventArgs e)
+        private void ModifierCompteMenu_Click(object sender, EventArgs e)
         {
             FormulaireCompte formulaire = new FormulaireCompte();
             formulaire.panel1.Visible = true;
             formulaire.Text = "Formulaire de modification";
             formulaire.Show();
+
+        }
+
+        private void UserControlTab_Load(object sender, EventArgs e)
+        {
 
         }
     }

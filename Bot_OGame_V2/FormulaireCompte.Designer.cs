@@ -61,7 +61,7 @@
             this.buttonValiderModif.TabIndex = 0;
             this.buttonValiderModif.Text = "Modifier";
             this.buttonValiderModif.UseVisualStyleBackColor = true;
-            this.buttonValiderModif.Click += new System.EventHandler(this.buttonValiderModif_Click);
+            this.buttonValiderModif.Click += new System.EventHandler(this.ButtonValiderModif_Click);
             // 
             // labelErreurCreationCompte
             // 
@@ -97,7 +97,7 @@
             this.buttonValider.TabIndex = 19;
             this.buttonValider.Text = "Valider";
             this.buttonValider.UseVisualStyleBackColor = true;
-            this.buttonValider.Click += new System.EventHandler(this.buttonValider_Click);
+            this.buttonValider.Click += new System.EventHandler(this.ButtonValider_Click);
             // 
             // buttonAnnuler
             // 
@@ -107,7 +107,7 @@
             this.buttonAnnuler.TabIndex = 20;
             this.buttonAnnuler.Text = "Annuler";
             this.buttonAnnuler.UseVisualStyleBackColor = true;
-            this.buttonAnnuler.Click += new System.EventHandler(this.buttonAnnuler_Click);
+            this.buttonAnnuler.Click += new System.EventHandler(this.ButtonAnnuler_Click);
             // 
             // textBoxAdresseServeur
             // 
