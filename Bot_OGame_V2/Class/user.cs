@@ -8,10 +8,12 @@ namespace Bot_OGame_V2.Class
 {
     class User
     {
-        String pseudo;
-        String mail;
-        String pass;
-        String univers;
-
+        Batiment construction = new Batiment();
+        
+        public void test()
+        {
+            construction.Niveau = 5;
+            // test modif 17:36
+        }
     }
 }
