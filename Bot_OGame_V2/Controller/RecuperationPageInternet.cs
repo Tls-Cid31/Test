@@ -8,5 +8,6 @@ namespace Bot_OGame_V2.Controller
 {
     class RecuperationPageInternet
     {
+
     }
 }
