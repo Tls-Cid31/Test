@@ -13,7 +13,7 @@ namespace Bot_OGame_V2.Class
         public void test()
         {
             construction.Niveau = 5;
-            // test modif
+            // test modif 17:36
         }
     }
 }
