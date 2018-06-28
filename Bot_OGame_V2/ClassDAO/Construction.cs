@@ -10,12 +10,12 @@ namespace Bot_OGame_V2.Class
     {
         //------------------------ Attributs ------------------------
 
-        String nom;
-        int niveau;
-        DateTime tempsConstruction;
+        private String nom;
+        private DateTime tempsConstruction;
+        private Ressources cout;
 
         public abstract string Nom { get; set; }
-        public abstract int Niveau { get; set; }
         public abstract DateTime TempsConstruction { get; set; }
+        public abstract Ressources Cout { get ; set ; }
     }
 }

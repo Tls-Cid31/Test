@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.Class
 {
-    class Batiment : Construction
+    class Installations : Construction
     {
+        //------------------------ Attributs ------------------------
+
+        private int niveau;
+
+
+        //------------------------ Setters/Getters ------------------------
+
         public override string Nom { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int Niveau { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public override DateTime TempsConstruction { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override Ressources Cout { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Niveau { get => niveau; set => niveau = value; }
     }
 }

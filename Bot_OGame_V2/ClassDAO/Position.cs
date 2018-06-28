@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.Class
 {
-    class User
+    class Position
     {
-        String pseudo;
-        String mail;
-        String pass;
-        String univers;
+        private int galaxie;
+        private int systemeSolaire;
+        private int planete;
     }
 }
