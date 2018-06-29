@@ -76,12 +76,9 @@
     <Compile Include="ClassDAO\BatRessources\MineMetal.cs" />
     <Compile Include="ClassDAO\BatRessources\ReservoirDeuterium.cs" />
     <Compile Include="ClassDAO\BatRessources\SynthetiseurDeuterium.cs" />
-    <Compile Include="ClassDAO\ClassConstructions\BatimentRessources.cs" />
     <Compile Include="ClassDAO\Compte.cs" />
     <Compile Include="ClassDAO\Construction.cs" />
-    <Compile Include="ClassDAO\ClassConstructions\Defense.cs" />
-    <Compile Include="ClassDAO\ClassConstructions\Flotte.cs" />
-    <Compile Include="ClassDAO\ClassConstructions\Installations.cs" />
+    <Compile Include="ClassDAO\Defense.cs" />
     <Compile Include="ClassDAO\Defense\ArtillerieIons.cs" />
     <Compile Include="ClassDAO\Defense\CanonGauss.cs" />
     <Compile Include="ClassDAO\Defense\GrandBouclier.cs" />
@@ -92,23 +89,27 @@
     <Compile Include="ClassDAO\Defense\MissileInterception.cs" />
     <Compile Include="ClassDAO\Defense\MissileInterplanetaire.cs" />
     <Compile Include="ClassDAO\Defense\PetitBouclier.cs" />
+    <Compile Include="ClassDAO\Flotte.cs" />
     <Compile Include="ClassDAO\Flotte\Bombardier.cs" />
     <Compile Include="ClassDAO\Flotte\ChasseurLeger.cs" />
     <Compile Include="ClassDAO\Flotte\ChasseurLourd.cs" />
     <Compile Include="ClassDAO\Flotte\Croiseur.cs" />
-    <Compile Include="ClassDAO\Flotte\Destructeurù.cs" />
+    <Compile Include="ClassDAO\Flotte\Destructeur.cs" />
     <Compile Include="ClassDAO\Flotte\EtoileMort.cs" />
     <Compile Include="ClassDAO\Flotte\GrandTransporteur.cs" />
     <Compile Include="ClassDAO\Flotte\PetitTransporteur.cs" />
     <Compile Include="ClassDAO\Flotte\Recycleur.cs" />
+    <Compile Include="ClassDAO\Flotte\SateliteSolaire.cs" />
     <Compile Include="ClassDAO\Flotte\SondeEspionnage.cs" />
     <Compile Include="ClassDAO\Flotte\Traqueur.cs" />
     <Compile Include="ClassDAO\Flotte\VaisseauBataille.cs" />
     <Compile Include="ClassDAO\Flotte\VaisseauColonisation.cs" />
+    <Compile Include="ClassDAO\Installations.cs" />
     <Compile Include="ClassDAO\Planete.cs" />
     <Compile Include="ClassDAO\Position.cs" />
+    <Compile Include="ClassDAO\Recherche.cs" />
+    <Compile Include="ClassDAO\Minerais.cs" />
     <Compile Include="ClassDAO\Ressources.cs" />
-    <Compile Include="ClassDAO\ClassConstructions\Technologie.cs" />
     <Compile Include="ClassDAO\Technologies\Armes.cs" />
     <Compile Include="ClassDAO\Technologies\Astrophysique.cs" />
     <Compile Include="ClassDAO\Technologies\Bouclier.cs" />
@@ -126,7 +127,6 @@
     <Compile Include="ClassDAO\Technologies\PropulsionHyperespace.cs" />
     <Compile Include="ClassDAO\Technologies\ReseauRechercheIntergalactique.cs" />
     <Compile Include="ClassDAO\User.cs" />
-    <Compile Include="Controller\RecuperationPageInternet.cs" />
     <Compile Include="FenetrePrincipale.cs">
       <SubType>Form</SubType>
     </Compile>

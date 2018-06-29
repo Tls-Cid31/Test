@@ -12,10 +12,10 @@ namespace Bot_OGame_V2.ClassDAO
 
         private String nom;
         private DateTime tempsConstruction;
-        private Ressources cout;
+        private Minerais cout;
 
         public abstract string Nom { get; set; }
         public abstract DateTime TempsConstruction { get; set; }
-        public abstract Ressources Cout { get ; set ; }
+        public abstract Minerais Cout { get ; set ; }
     }
 }

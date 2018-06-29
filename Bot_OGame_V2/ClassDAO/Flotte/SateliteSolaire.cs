@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bot_OGame_V2.Controller
+namespace Bot_OGame_V2.ClassDAO
 {
-    class RecuperationPageInternet
+    class SateliteSolaire
     {
-
     }
 }

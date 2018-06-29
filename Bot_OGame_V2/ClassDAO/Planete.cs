@@ -10,15 +10,18 @@ namespace Bot_OGame_V2.ClassDAO
     {
         //------------------------ Attributs ------------------------
 
-        private string nomPlanete;
-        private int diametre;
-        private int temperatureMax;
-        private int temperatureMin;
-        private Position positionPlanete;
-        private Ressources ressources;
-        private List<Construction> empire;
-
-
+        private string nomPlanete; // Nom de la planète 
+        private int diametre; // Taille de la planète
+        private int temperatureMax; // Température maximum sur la planète
+        private int temperatureMin; // Température minimim sur la planète 
+        private Position positionPlanete; // Coordonnées de la planète
+        private Minerais minerais; // Ressources présentes sur la planète
+        private Ressources ressources; // Batiments production minerais
+        private Installations installations; // Les batiments "installations"
+        private Recherche recherche;
+        private Flotte flotte;
+        private Defense defense;
+   
         
     }
 }

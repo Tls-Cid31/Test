@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bot_OGame_V2.ClassDAO.Technologies
+namespace Bot_OGame_V2.ClassDAO
 {
     class ProtectionVaisseauxSpatiaux
     {

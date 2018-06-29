@@ -2,6 +2,8 @@
 {
     partial class FenetrePrincipale
     {
+        private UserControlTab userControlTab;
+
         /// <summary>
         /// Variable nécessaire au concepteur.
         /// </summary>
@@ -95,6 +97,7 @@
             // 
             // tabPage1
             // 
+
             this.tabPage1.Controls.Add(this.userControlTab);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
@@ -146,7 +149,7 @@
         private System.Windows.Forms.ToolStripMenuItem supprimerCompteMenu;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private UserControlTab userControlTab;
+        //private UserControlTab userControlTab;
     }
 }
 

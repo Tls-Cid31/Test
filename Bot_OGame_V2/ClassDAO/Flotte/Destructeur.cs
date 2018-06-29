@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bot_OGame_V2.ClassDAO.Flotte
+namespace Bot_OGame_V2.ClassDAO
 {
-    class Destructeurù
+    class Destructeur
     {
     }
 }
