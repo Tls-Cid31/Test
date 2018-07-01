@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.ClassDAO
 {
-    class SiloMissile
+    class SiloMissile : BatimentTechnologie
     {
+        private String nom;
+        private DateTime tempsConstruction;
+        private Minerais cout;
+        private int niveau;
+        
+        public override void Construire()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Detruire()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -10,10 +10,21 @@ namespace Bot_OGame_V2.ClassDAO
     {
         //------------------------ Attributs ------------------------
 
-        private string pseudo;
-        private string adresseMail;
-        private string motDePasse;
-        private string univers;
+        private string pseudo; // Pseudo du compte
+        private string adresseMail; // Adresse de connexion
+        private string motDePasse; // Mot de passe
+        private string univers; // Univers de jeu
+
+        private List<Planete> planete; // Liste des planètes du compte
+
+
+        //------------------------ Methodes ------------------------
+
+        public void AjouterPlanete()
+        {
+           
+        }
+        
 
 
         //------------------------ Setters/Getters ------------------------

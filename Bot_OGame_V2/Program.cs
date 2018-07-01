@@ -17,6 +17,10 @@ namespace Bot_OGame_V2
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FenetrePrincipale());
+
+            Bot_OGame_V2.ClassDAO.Ressources a = new ClassDAO.Ressources();
+
+            a.test();
         }
     }
 }

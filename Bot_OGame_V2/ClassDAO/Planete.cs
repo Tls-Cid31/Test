@@ -16,12 +16,13 @@ namespace Bot_OGame_V2.ClassDAO
         private int temperatureMin; // Température minimim sur la planète 
         private Position positionPlanete; // Coordonnées de la planète
         private Minerais minerais; // Ressources présentes sur la planète
+
         private Ressources ressources; // Batiments production minerais
         private Installations installations; // Les batiments "installations"
-        private Recherche recherche;
-        private Flotte flotte;
-        private Defense defense;
+        private Flotte flotte; // Les vaisseaux présents sur la planètes
+        private Defense defense; // Les défenses présentes sur la planètes
+        private static Recherche recherche; // Les technologies présente sur l'ensemble des planètes
    
-        
+ 
     }
 }

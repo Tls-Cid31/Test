@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.ClassDAO
 {
-    class GrandTransporteur
+    class GrandTransporteur : VaisseauDefenses
     {
+     
+        public override void Construire()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

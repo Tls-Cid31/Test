@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.ClassDAO
 {
-    class ArtillerieIons
+    class ArtillerieIons : VaisseauDefenses
     {
+        
+
+        public override void Construire()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

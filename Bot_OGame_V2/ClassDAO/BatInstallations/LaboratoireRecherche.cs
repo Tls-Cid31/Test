@@ -6,9 +6,21 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.ClassDAO
 {
-    class LaboratoireRecherche
+    class LaboratoireRecherche : BatimentTechnologie
     {
-    //    private Compte compte;
-       
+        private String nom;
+        private DateTime tempsConstruction;
+        private Minerais cout;
+        private int niveau;
+        
+        public override void Construire()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Detruire()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

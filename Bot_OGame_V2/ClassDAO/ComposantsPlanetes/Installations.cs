@@ -9,7 +9,7 @@ namespace Bot_OGame_V2.ClassDAO
     class Installations
     {
         private UsineRobot usineRobot;
-        private ChantierSpatial chantierSpatial;
+        private VaisseauDefenses chantierSpatial;
         private LaboratoireRecherche laboratoireRecherche;
         private DepotRavitaillement depotRavitaillement;
         private SiloMissile siloMissile;

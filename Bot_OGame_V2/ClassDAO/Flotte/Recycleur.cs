@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.ClassDAO
 {
-    class Recycleur
+    class Recycleur : VaisseauDefenses
     {
+      
+        public override void Construire()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

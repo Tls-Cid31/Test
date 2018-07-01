@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.ClassDAO
 {
-    class EtoileMort
+    class EtoileMort : VaisseauDefenses
     {
+      
+        public override void Construire()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

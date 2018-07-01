@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Bot_OGame_V2.ClassDAO
 {
-    class ChasseurLourd
+    class ChasseurLourd : VaisseauDefenses
     {
+        protected ChasseurLourd(string nom, int nombre, Minerais cout, DateTime tempsConstruction) : base(nom, nombre, cout, tempsConstruction)
+        {
+        }
+
+        public override void Construire()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
