@@ -15,6 +15,9 @@ namespace Bot_OGame_V2
             panel1.Visible = true;
         }
 
-        
+        private void buttonModifier_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

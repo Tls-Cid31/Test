@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bot_OGame_V2.Traitement;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +25,28 @@ namespace Bot_OGame_V2
 
         private void ButtonValider_Click(object sender, EventArgs e)
         {
+            Controler utilisateur = new Controler();
 
+            int valeurRetour = utilisateur.CreationCompte(textBoxPseudo.Text, textBoxIdentifiant.Text, textBoxMdp.Text, textBoxAdresseServeur.Text);
+
+            switch (valeurRetour)
+            {
+                case 0:
+                    labelErreurCreationCompte.Text = "Tous les champs doivent être remplis";
+                    break;
+                case 1:
+                    labelErreurCreationCompte.Text = "Le pseudo ne peut pas contenir\nde caractère spéciaux";                    
+                    break;
+                case 2:
+                    labelErreurCreationCompte.Text = "Adresse Email Invalide";
+                    break;
+                case 3:
+                    labelErreurCreationCompte.Text = "Ce compte existe déjà. \nVous devez créer un compte par univers";
+                    break;
+                case 4:
+                    this.Dispose();
+                    break;
+            }
         }
 
         private void ButtonValiderModif_Click(object sender, EventArgs e)

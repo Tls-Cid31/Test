@@ -21,7 +21,6 @@ namespace Bot_OGame_V2
         {
             FormulaireCompte formulaire = new FormulaireCompte();
             formulaire.Show();
-
         }
 
         private void ModifierCompteMenu_Click(object sender, EventArgs e)
@@ -31,11 +30,6 @@ namespace Bot_OGame_V2
             formulaire.Text = "Formulaire de modification";
             formulaire.Show();
 
-        }
-
-        private void UserControlTab_Load(object sender, EventArgs e)
-        {
-
-        }
+        }        
     }
 }
